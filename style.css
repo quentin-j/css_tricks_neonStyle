@@ -75,6 +75,8 @@ body {
 }
 
 .neon-button:hover::before,
-.neon-button:hover::after {
+.neon-button:focus::before,
+.neon-button:hover::after,
+.neon-button:focus::after {
     opacity: 1;
 }
